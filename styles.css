@@ -1,0 +1,27 @@
+html{
+    min-height: 100vh;
+    min-width: 40vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.landingbg{
+    display: flex;
+    position:relative;
+    overflow: hidden;
+    max-height: 80vh;
+    max-width: 100vw;
+    padding-left: 70vw;
+    padding-top: 10vh;
+}
+.landing{
+    display: flex;
+    overflow: hidden;
+    position:absolute;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #ff8f70 0%, #ff3d54 100%);
+    background-repeat: no-repeat;
+    margin: -10px -10px -10px -10px;
+    border-bottom-left-radius: 200px;
+}
